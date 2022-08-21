@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>HTML tags</title>
+</head>
+
+<body>
+
+
+    <h1>PRE</h1>
+    <pre>
+Text in a pre element is displayed in a fixed-width
+font, and it preserves both 
+spaces and line breaks
+    </pre>
+
+    <h1>PROGRESS</h1>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="60" max="100"> 60% </progress>
+
+    <h1>q</h1>
+    <p>WWF's goal is to:
+        <q>Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p>
+
+    <h1>S</h1>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <h1>SAMP</h1>
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+
+    <h1>Script</h1>
+
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+
+    <h1>section</h1>
+
+    <section>
+        <h3>WWF History</h3>
+        <p>The World Wide Fund for Nature (WWF) is an internationalorganization working<br>on issues regarding the
+            conservation,research and restoration of the environment,<br>formerly named the World Wildlife Fund. WWF was
+            founded in 1961.</p>
+    </section>
+
+    <section>
+        <h3>WWF's Symbol</h3>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated<br>from a panda named Chi
+            Chi that was transferred from the Beijing Zoo<br>to the London Zoo in the same year of the establishment of
+            WWF.</p>
+    </section>
+
+    <h1>SELECT</h1>
+    <label for="food">Menu:</label>
+    <select name="food" id="cars">
+        <option value="volvo">Biryani</option>
+        <option value="saab">Parota</option>
+        <option value="opel">Sheswan noodle</option>
+        <option value="audi">Veg Meals</option>
+    </select>
+
+    <h1>SMALL</h1>
+    <p>Here is Aziz.</p>
+    <p><small>Here is Aziz.</small></p>
+    <h1>SOURCE</h1>
+    <audio controls>
+        <source src="tag.3.mp3" type="audio/mp3">
+
+    </audio>
+
+    <h1>SPAN</h1>
+    <p>My brother has <span style="color:blue;">blue</span> pen and my sister has <span
+            style="color:orangered;">red</span> eyes.</p>
+
+    <h1>STRONG</h1>
+    <p>This text is normal.</p>
+
+    <p><strong>This text is important!</strong></p>
+
+    <style>
+        h1 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+
+        table,
+        th,
+        td {
+            border: 2px solid red;
+        }
+    </style>
+
+    <h1>sub|sup</h1>
+    <p>This text contains <sub>subscript</sub> text.</p>
+    <p>This text contains <sup>superscript</sup> text.</p>
+    <details>
+        <h1>Summary</h1>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <h1>SVG</h1>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="50" stroke="aqua" stroke-width="4" fill="pink" />
+    </svg>
+
+    <h1> Table|thead |tbody |tfoot</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h1>Textarea</h1>
+    <form action="/action_page.php">
+        <p><label for="movies">Review of Movies:</label></p>
+        <textarea id="w3review" name="w3review" rows="5" cols="40"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>TIME</h1>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+    <p>The <time datetime="2022-08-15 20:00">INDEPENDENCE day</time>.</p>
+
+    <h1>track</h1>
+    <video width="300" height="600" controls>
+        <source src="tag.1.mp4" type="video/mp4">
+        <source src="forrest_gump.ogg" type="video/ogg">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+    </video>
+
+    <h1>U</h1>
+    <p>This is some <u>mispeled</u> text.</p>
+
+    <h1>ul</h1>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <h1>var</h1>
+    <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is
+        the vertical height.</p>
+
+    <h1>video</h1>
+    <video width="300" height="600 " controls>
+        <source src="tag.1.mp4" type="video/mp4">
+
+    </video>
+    <h1>wbr</h1>
+    <p>This is a
+        veryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecificplaces<wbr>whenthebrowserwindowisresized.
+    </p>
+
+
+</body>
+
+</html>
